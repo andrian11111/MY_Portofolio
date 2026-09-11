@@ -1,0 +1,33 @@
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Services from "@/components/service";
+import TechStack from "@/components/TechStack";
+import Projects from "@/components/Projects";
+import Certificates from "@/components/Certificates";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-[#0a0a0f] selection:bg-amber-500/20 selection:text-amber-400">
+      <Hero />
+      <About />
+      <Services />
+      <TechStack />
+      <Projects />
+      <Certificates />
+
+      {/* Footer */}
+      <footer className="py-8 md:py-12 bg-[#0d0d12] border-t border-gray-800">
+        <div className="container px-4 mx-auto text-center">
+          <div className="flex items-center justify-center gap-2 mb-4 text-gray-500 font-mono text-xs sm:text-sm">
+            <span className="text-cyan-400">&lt;</span>
+            Build with passion
+            <span className="text-cyan-400">/&gt;</span>
+          </div>
+          <p className="text-gray-600 text-xs sm:text-sm">
+            © {new Date().getFullYear()} My Portofolio.
+          </p>
+        </div>
+      </footer>
+    </main>
+  );
+}
