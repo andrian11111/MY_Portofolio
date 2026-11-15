@@ -364,7 +364,7 @@ export default function LanyardCard() {
 
                         {/* IDN CV Link */}
                         <a
-                            href="https://drive.google.com/file/d/1DANS63fCt8xiNRVVa31A-vHnNMORXZnW/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1l9Mh2ZYAe4z4swk10vIX7PPpOr0FJF_a/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={handleLinkClick}
@@ -375,7 +375,7 @@ export default function LanyardCard() {
 
                         {/* ENG CV Link */}
                         <a
-                            href="https://drive.google.com/file/d/1cAv6J2ZqwkpsJ5JEuuC4Ffg9VM1UiPu1/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1l9Mh2ZYAe4z4swk10vIX7PPpOr0FJF_a/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={handleLinkClick}
@@ -386,7 +386,7 @@ export default function LanyardCard() {
 
                         {/* Let's Talk Whatsapp */}
                         <a
-                            href="https://wa.me/6287875810413"
+                            href="https://wa.me/6287710176594"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={handleLinkClick}
